@@ -5,15 +5,17 @@ import {
   RouterProvider
 } from "react-router-dom";
 
-import App from "./App";
 import Login from "./components/Login";
 import Funcionarios from "./components/restrito/funcionarios";
+import SobreNos from "./components/SobreNos";
+import Contacto from "./components/Contacto";
+import Inicio from "./components/Inicio";
+import Servicos from "./components/Servicos";
+
+
 
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-  },
+
   {
     path: "/login",
     element: <Login />,
@@ -21,7 +23,25 @@ const router = createBrowserRouter([
    {
     path: "/funcionarios",
     element: <Funcionarios />
-  }
+  },
+  {
+    path: "/SobreNos",
+    element:<SobreNos/>
+  },
+  {
+    path: "/Contacto",
+    element:<Contacto/>
+  },
+  {
+    path: "/",
+    element: <Inicio/>
+  },
+   {
+    path: "/Servicos",
+    element: <Servicos/>
+   }
+  
+
    
 
   

@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { jsx } from "react/jsx-runtime"
 
 export default function Funcionarios(){
 
@@ -165,3 +166,4 @@ async function cadastrarFunc(nome,ender,tel, cargo, profissao, tipo_func,cod_ace
     )
 
 }
+

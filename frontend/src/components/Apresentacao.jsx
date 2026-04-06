@@ -78,7 +78,7 @@ export default function Apresentacao(){
                                         <div className="xl:w-[85%] lg:w-[88%] md:w-[89%]">
                                             
                                         <h1 className="transicao dm-sans-uniquifier xl:text-7xl  md:text-6xl text-4xl md:px-0 pr-14  text-gray-200 font-extrabold">BEM VINDO AO SGGR </h1>
-                                         <h1 className=" transicao dm-sans-uniquifier xl:text-6xl lg:text-5xl md:text-6xl text-3xl md:px-0 pr-14 pb-7 font-extrabold text-pink-300">Sistema De Gestao para Gestantes Em Riscos </h1>
+                                         <h1 className=" transicao dm-sans-uniquifier xl:text-6xl lg:text-5xl md:text-6xl text-3xl md:px-0 pr-14 pb-7 font-extrabold text-pink-400">Sistema De Gestao para Gestantes Em Riscos </h1>
                             
                                         </div>
                                          
@@ -115,7 +115,7 @@ export default function Apresentacao(){
                                         <div className="xl:w-[85%] lg:w-[88%] md:w-[89%]">
                                             
                                         <h1 className=" transicaodm-sans-uniquifier xl:text-7xl  md:text-6xl text-4xl md:px-0 pr-14  text-gray-200 font-extrabold"> Cuidando da Vida Desde o Início </h1>
-                                         <h1 className=" transicao dm-sans-uniquifier xl:text-6xl lg:text-5xl md:text-6xl text-3xl md:px-0 pr-14 pb-7 font-extrabold text-pink-300 ">para ter uma boa gestação </h1>
+                                         <h1 className=" transicao dm-sans-uniquifier xl:text-6xl lg:text-5xl md:text-6xl text-3xl md:px-0 pr-14 pb-7 font-extrabold text-pink-400 ">para ter uma boa gestação </h1>
                             
                                         </div>
                                          
@@ -157,7 +157,7 @@ export default function Apresentacao(){
                                         <div className="transicao xl:w-[85%] lg:w-[88%] md:w-[89%]">
                                             
                                         <h1 className="transicao dm-sans-uniquifier xl:text-7xl  md:text-6xl text-4xl md:px-0 pr-14 text-gray-200 font-extrabold">Segurança e Bem-Estar Materno-Fetal</h1>
-                                         <h1 className="transicao dm-sans-uniquifier xl:text-6xl lg:text-5xl md:text-6xl text-3xl md:px-0 pr-14 pb-7 font-extrabold text-pink-300">Cuidado que Faz a Diferença</h1>
+                                         <h1 className="transicao dm-sans-uniquifier xl:text-6xl lg:text-5xl md:text-6xl text-3xl md:px-0 pr-14 pb-7 font-extrabold text-pink-400">Cuidado que Faz a Diferença</h1>
                             
                                         </div>
                                          
