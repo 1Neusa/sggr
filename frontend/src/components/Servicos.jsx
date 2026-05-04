@@ -10,8 +10,9 @@ export default function Servicos() {
 
       
       <p className="text-center text-gray-700 max-w-3xl mx-auto">
-        Oferecemos uma gama completa de serviços para apoiar gestantes em todas
+        Oferecemos uma gama de serviços para apoiar gestantes em todas
         as etapas da gravidez, garantindo cuidado, segurança e informação de qualidade.
+
       </p>
 
       
@@ -42,7 +43,7 @@ export default function Servicos() {
           <h2 className="text-xl font-semibold mb-2">Relatórios e Monitoramento</h2>
           <p className="text-gray-600">
             Relatórios detalhados de evolução da gestante, alertas automáticos de risco,
-            e gráficos de acompanhamento de peso, pressão e exames.
+           pressão e exames.
           </p>
         </div>
 
@@ -72,7 +73,7 @@ export default function Servicos() {
           <h2 className="text-xl font-semibold mb-2">Plataforma Online</h2>
           <p className="text-gray-600">
             Acesso seguro a histórico de consultas, exames e alertas, com interface
-            intuitiva e responsiva para qualquer dispositivo.
+            intuitiva e responsiva.
           </p>
         </div>
       </div>

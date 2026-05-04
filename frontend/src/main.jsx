@@ -11,19 +11,15 @@ import SobreNos from "./components/SobreNos";
 import Contacto from "./components/Contacto";
 import Inicio from "./components/Inicio";
 import Servicos from "./components/Servicos";
+import Principal from "./components/restrito/Principal";
+import Gestantes from "./components/restrito/Gestantes";
+import Exames from "./components/restrito/Exames";
+import Consultas from "./components/restrito/Consultas";
 
 
 
 const router = createBrowserRouter([
 
-  {
-    path: "/login",
-    element: <Login />,
-  },
-   {
-    path: "/funcionarios",
-    element: <Funcionarios />
-  },
   {
     path: "/SobreNos",
     element:<SobreNos/>
@@ -39,7 +35,35 @@ const router = createBrowserRouter([
    {
     path: "/Servicos",
     element: <Servicos/>
-   }
+   },
+  
+
+  {
+    path: "/login",
+    element: <Login />,
+  },
+  {
+   path: "/Principal",
+    element: <Principal />
+  },
+   {
+    path: "/funcionarios",
+    element: <Funcionarios />
+  },
+  
+  {
+    path: "/gestantes",
+    element: <Gestantes />,
+  },
+  {
+    path: "/consultas",
+    element: <Consultas />,
+  },
+  {
+    path: "/exames",
+    element: <Exames />,
+  }
+
   
 
    

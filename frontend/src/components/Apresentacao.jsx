@@ -20,7 +20,7 @@ export default function Apresentacao(){
     }, [])
     return (
         
-     <div className=' h-[805px] w-full'> 
+     <div className='h-[805px] md:h-screen w-full'> 
 
        
        <div className="  link-efeito-girar z-20 ">
@@ -62,7 +62,7 @@ export default function Apresentacao(){
         autoplay={{ delay: 9000, disableOnInteraction: false }}
         pagination={{ clickable: true }}
         navigation={false}
-        className=' h-[805px]'  >
+        className='h-[805px] md:h-screen w-full'  >
                 
                            
                 
@@ -71,28 +71,28 @@ export default function Apresentacao(){
                     <div className=" transicao lg:w-[70%] w-full text-left">
                         
                         
-                        <div id="slideContent_0" className=" hide pb-4 flex px-6 md:pl-6 flex-wrap mb-9 gap-x-4 items-center mt-52 md:ml-20 justify-left">
+                        <div id="slideContent_0" className="hide pb-4 flex px-4 sm:px-6 md:pl-6 flex-wrap mb-9 gap-x-4 items-center mt-20 sm:mt-32 md:mt-52 md:ml-20 justify-center sm:justify-left">
 
                             
                             
                                         <div className="xl:w-[85%] lg:w-[88%] md:w-[89%]">
                                             
-                                        <h1 className="transicao dm-sans-uniquifier xl:text-7xl  md:text-6xl text-4xl md:px-0 pr-14  text-gray-200 font-extrabold">BEM VINDO AO SGGR </h1>
-                                         <h1 className=" transicao dm-sans-uniquifier xl:text-6xl lg:text-5xl md:text-6xl text-3xl md:px-0 pr-14 pb-7 font-extrabold text-pink-400">Sistema De Gestao para Gestantes Em Riscos </h1>
+                                         <h1 className="transicao dm-sans-uniquifier text-xl sm:text-xl md:text-2xl lg:text-xl xl:text-7xl md:px-0 pr-4 sm:pr-8 md:pr-14 text-gray-200 font-extrabold leading-tight">BEM VINDO AO SGGR</h1>
+                                         <h1 className="transicao dm-sans-uniquifier text-base sm:text-lg md:text-2xl lg:text-4xl xl:text-5xl md:px-0 pr-4 sm:pr-8 md:pr-14 pb-6 sm:pb-7 md:pb-7 font-extrabold text-pink-400 leading-snug">Sistema De Gestão para Gestantes Em Riscos</h1>
                             
                                         </div>
                                          
-                             <p className=" w-[90%] lg:w-[80%] md:w-[90%] pb-7 dm-sans-uniquifier md:px-0 font-semibold text-md  md:text-2xl lg:text-2xl text-gray-300 transicao " >
+                             <p className="w-full sm:w-[90%] lg:w-[80%] md:w-[90%] pb-6 md:pb-7 dm-sans-uniquifier md:px-0 font-semibold text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-gray-300 transicao leading-relaxed">
                                 Bem-vinda ao Sistema de Gestão para Gestantes em Risco. Aqui você acompanha sua saúde e seu bebê de forma segura e prática.
                              </p>
                             <div className=" transicao md:flex md:flex-nowrap gap-x-5 w-full md:items-center md:justify-left  ">
                                 
 
-                            <a href="/login" className="w-full md:w-auto">
-                                <button className="cursor-pointer flex items-center justify-center w-full md:w-auto px-6 py-3 font-bold text-[1rem] md:text-[1.1rem] 
-                                                border border-G-700 text-pink-300 bg-transparent backdrop-blur-lg 
-                                                transition-all duration-300 hover:text-[1.25rem] hover:backdrop-blur-3xl rounded-md">
-                                ENTRAR NO SISTEMA 
+                            <a href="/login" className="w-full sm:w-auto">
+                                <button className="cursor-pointer flex items-center justify-center w-full sm:w-auto px-5 sm:px-6 py-2 sm:py-3 font-bold text-xs sm:text-sm md:text-base
+                                                border-2 border-pink-400 text-pink-300 bg-gradient-to-r from-pink-500/10 to-purple-500/10 backdrop-blur-lg
+                                                transition-all duration-300 hover:from-pink-500/20 hover:to-purple-500/20 hover:border-pink-300 hover:shadow-lg hover:shadow-pink-500/30 rounded-lg">
+                                ENTRAR NO SISTEMA
                                 </button>
                                 </a>
                             </div>
@@ -108,18 +108,18 @@ export default function Apresentacao(){
                     <div className=" transicao lg:w-[70%] w-full text-left">
                         
                         
-                        <div id="slideContent_1" className=" hide transicao pb-4 flex px-6 md:pl-6 flex-wrap mb-9 gap-x-4 items-center mt-52 md:ml-20 justify-left">
+                        <div id="slideContent_1" className="hide transicao pb-4 flex px-4 sm:px-6 md:pl-6 flex-wrap mb-9 gap-x-4 items-center mt-20 sm:mt-32 md:mt-52 md:ml-20 justify-center sm:justify-left">
 
                             
                             
                                         <div className="xl:w-[85%] lg:w-[88%] md:w-[89%]">
                                             
-                                        <h1 className=" transicaodm-sans-uniquifier xl:text-7xl  md:text-6xl text-4xl md:px-0 pr-14  text-gray-200 font-extrabold"> Cuidando da Vida Desde o Início </h1>
-                                         <h1 className=" transicao dm-sans-uniquifier xl:text-6xl lg:text-5xl md:text-6xl text-3xl md:px-0 pr-14 pb-7 font-extrabold text-pink-400 ">para ter uma boa gestação </h1>
+                                        <h1 className="transicao dm-sans-uniquifier text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-7xl md:px-0 pr-4 sm:pr-8 md:pr-14 text-gray-200 font-extrabold">Cuidando da Vida Desde o Início</h1>
+                                         <h1 className="transicao dm-sans-uniquifier text-lg sm:text-xl md:text-2xl lg:text-5xl xl:text-6xl md:px-0 pr-4 sm:pr-8 md:pr-14 pb-7 font-extrabold text-pink-400">para ter uma boa gestação</h1>
                             
                                         </div>
                                          
-                             <p className=" transicao w-[90%] lg:w-[80%] md:w-[90%] pb-7 dm-sans-uniquifier md:px-0 font-semibold text-md  md:text-2xl lg:text-2xl text-gray-300  " >
+                             <p className="transicao w-full sm:w-[90%] lg:w-[80%] md:w-[90%] pb-7 dm-sans-uniquifier md:px-0 font-semibold text-xs sm:text-sm md:text-base lg:text-xl xl:text-2xl text-gray-300 leading-relaxed">
                                     Nosso sistema acompanha gestantes em situação de risco, garantindo monitoramento contínuo da saúde materna e fetal. Cada detalhe,
                                      desde consultas até exames, é registrado para promover um acompanhamento seguro e eficaz,
                                       minimizando riscos e oferecendo suporte personalizado.
@@ -127,11 +127,11 @@ export default function Apresentacao(){
                             <div className=" transicao md:flex md:flex-nowrap gap-x-5 w-full md:items-center md:justify-left  ">
                                 
                                                              
-  <a href="/login" className="w-full md:w-auto">
-    <button className="cursor-pointer flex items-center justify-center w-full md:w-auto px-6 py-3 font-bold text-[1rem] md:text-[1.1rem] 
-                       border border-G-700 text-pink-300 bg-transparent backdrop-blur-lg 
-                       transition-all duration-300 hover:text-[1.25rem] hover:backdrop-blur-3xl rounded-md">
-      ENTRAR NO SISTEMA 
+  <a href="/login" className="w-full sm:w-auto">
+    <button className="cursor-pointer flex items-center justify-center w-full sm:w-auto px-6 py-3 font-bold text-xs sm:text-sm md:text-base
+                       border-2 border-pink-400 text-pink-300 bg-gradient-to-r from-pink-500/10 to-purple-500/10 backdrop-blur-lg
+                       transition-all duration-300 hover:from-pink-500/20 hover:to-purple-500/20 hover:border-pink-300 hover:shadow-lg hover:shadow-pink-500/30 rounded-lg">
+      ENTRAR NO SISTEMA
     </button>
     </a>
 
@@ -150,29 +150,29 @@ export default function Apresentacao(){
                     <div className=" transicao  lg:w-[70%] w-full text-left">
                         
                         
-                        <div id="slideContent_2" className=" hide  pb-4 flex px-6 md:pl-6 flex-wrap mb-9 gap-x-4 items-center mt-52 md:ml-20 justify-left">
+                        <div id="slideContent_2" className="hide pb-4 flex px-4 sm:px-6 md:pl-6 flex-wrap mb-9 gap-x-4 items-center mt-20 sm:mt-32 md:mt-52 md:ml-20 justify-center sm:justify-left">
 
                             
                             
                                         <div className="transicao xl:w-[85%] lg:w-[88%] md:w-[89%]">
                                             
-                                        <h1 className="transicao dm-sans-uniquifier xl:text-7xl  md:text-6xl text-4xl md:px-0 pr-14 text-gray-200 font-extrabold">Segurança e Bem-Estar Materno-Fetal</h1>
-                                         <h1 className="transicao dm-sans-uniquifier xl:text-6xl lg:text-5xl md:text-6xl text-3xl md:px-0 pr-14 pb-7 font-extrabold text-pink-400">Cuidado que Faz a Diferença</h1>
+                                        <h1 className="transicao dm-sans-uniquifier text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-7xl md:px-0 pr-4 sm:pr-8 md:pr-14 text-gray-200 font-extrabold">Segurança e Bem-Estar Materno-Fetal</h1>
+                                         <h1 className="transicao dm-sans-uniquifier text-lg sm:text-xl md:text-2xl lg:text-5xl xl:text-6xl md:px-0 pr-4 sm:pr-8 md:pr-14 pb-7 font-extrabold text-pink-400">Cuidado que Faz a Diferença</h1>
                             
                                         </div>
                                          
-                             <p className="transicao w-[90%] lg:w-[80%] md:w-[90%] pb-7 dm-sans-uniquifier md:px-0 font-semibold text-md  md:text-2xl lg:text-2xl text-slate-300  " >
+                             <p className="transicao w-full sm:w-[90%] lg:w-[80%] md:w-[90%] pb-7 dm-sans-uniquifier md:px-0 font-semibold text-xs sm:text-sm md:text-base lg:text-xl xl:text-2xl text-slate-300 leading-relaxed">
                                  Gestantes em risco merecem atenção especial. Nosso sistema centraliza consultas, exames e alertas, oferecendo um suporte contínuo para que cada decisão clínica seja rápida,
                                   precisa e segura, protegendo tanto a mãe quanto o bebê.
                              </p>
                             <div className=" md:flex md:flex-nowrap gap-x-5 w-full md:items-center md:justify-left  ">
                                 
                                                             
-  <a href="/login" className="w-full md:w-auto">
-    <button className="cursor-pointer flex items-center justify-center w-full md:w-auto px-6 py-3 font-bold text-[1rem] md:text-[1.1rem] 
-                       border border-G-700 bg-transparent backdrop-blur-lg 
-                       transition-all duration-300 hover:text-[1.25rem] hover:backdrop-blur-3xl  rounded-md text-pink-300">
-      ENTRAR NO SISTEMA 
+  <a href="/login" className="w-full sm:w-auto">
+    <button className="cursor-pointer flex items-center justify-center w-full sm:w-auto px-6 py-3 font-bold text-xs sm:text-sm md:text-base
+                       border-2 border-pink-400 bg-gradient-to-r from-pink-500/10 to-purple-500/10 backdrop-blur-lg
+                       transition-all duration-300 hover:from-pink-500/20 hover:to-purple-500/20 hover:border-pink-300 hover:shadow-lg hover:shadow-pink-500/30 rounded-lg text-pink-300">
+      ENTRAR NO SISTEMA
     </button>
     </a>
                             </div>

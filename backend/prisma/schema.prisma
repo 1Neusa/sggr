@@ -6,15 +6,14 @@
 
 generator client {
   provider = "prisma-client-js"
- 
 }
 
 datasource db {
   provider = "mysql"
-  url      = env("DATABASE_URL")
 }
 
-model Gravidas{
+
+  model Gravidas{
   id Int @id @default(autoincrement())
   nome String
   nascimento DateTime
@@ -33,6 +32,8 @@ model Gravidas{
   func Funcionarios @relation(fields: [func_Id], references: [id])  
   doctor_Id Int
   doctor Doctor @relation(fields: [doctor_Id], references: [id])
+
+  medicamentos Medicamento[]
 }
 
 model Funcionarios{
@@ -54,4 +55,21 @@ model Doctor{
   especialidade String?
   cod_acesso String
   gravidas Gravidas[]
+}
+
+
+
+
+
+
+model Medicamento {
+  id  Int      @id @default(autoincrement())
+  nome             String
+  descricao        String
+  dosagem          String
+  data_inicio      DateTime
+  data_fim         DateTime?
+  id_Gravidas    Int
+
+  gravida      Gravidas @relation(fields: [id_Gravidas], references: [id])
 }

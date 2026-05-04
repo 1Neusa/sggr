@@ -23,12 +23,10 @@ const [isOpen, setOpen] = useState(false);
                               <ul className="mx-8 lg:ml-18 transicao text-xl lg:text-[120%] xl:text-[140%] text-blue-900 list-none px-5 gap-6 flex items-center  ">
                               <li><Link className="transicao link linkTop text-pink-400" to="/" onClick={() => window.scrollTo(0,0)}>Inicio</Link></li>
                               <li><a className="transicao link linkTop text-pink-400" href="/Servicos" >Serviços</a></li>
-                              
-                              
                               <li><Link className="transicao link linkTop text-pink-400 " to="/sobre" onClick={() => window.scrollTo(0,0)}></Link></li>
                               <li><a className="transicao link linkTop text-pink-400" href="Contacto">Contactos</a></li>
                               <li><a className="transicao link linkTop text-pink-400" href="SobreNos">SobreNos</a></li>
-                              <li><a className="transicao link linkTop text-pink-400" href="/funcionarios">Área Restrita</a></li>
+                              <li><a className="transicao link linkTop text-pink-400" href="/Principal">Área Restrita</a></li>
                   
                               </ul>
                         </div>
@@ -59,7 +57,7 @@ const [isOpen, setOpen] = useState(false);
                   
                               <li onClick={()=>setOpen(false)} ><Link className="transicao link hover:text-sky-800" to="/sobre" onClick={() => window.scrollTo(0,0)}></Link></li>
                               <li onClick={()=>setOpen(false)} ><a className="transicao link hover:text-sky-800" href="Contacto">Contactos</a></li>
-                              <li onClick={()=>setOpen(false)} ><a className="transicao link hover:text-sky-800" href="funcionarios">Área Restrita</a></li>
+                              <li onClick={()=>setOpen(false)} ><a className="transicao link hover:text-sky-800" href="/Principal">Área Restrita</a></li>
                               
                               </ul>
                               </div>
